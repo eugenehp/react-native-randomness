@@ -4,15 +4,18 @@ import { StyleSheet, View, Text } from 'react-native';
 import Randomness from 'react-native-randomness';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  const [result, setResult] = React.useState<any | undefined>();
 
   React.useEffect(() => {
-    Randomness.multiply(3, 7).then(setResult);
+    Randomness.random(16).then( (data) => {
+      console.log("Randomness in JS", data)
+      setResult(data)
+    });
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Result: {result ? result.toString() : 'N/A'}</Text>
     </View>
   );
 }

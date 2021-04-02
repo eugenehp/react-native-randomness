@@ -34,7 +34,10 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "random",
+    "bytes",
+    "uuid"
   ],
   "repository": "https://github.com/eugenehp/react-native-randomness",
   "author": "Eugene Hauptmann <eugene.hp2012@gmail.com> (https://github.com/eugenehp)",
