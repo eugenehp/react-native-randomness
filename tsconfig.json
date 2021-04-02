@@ -4,6 +4,7 @@
     "paths": {
       "react-native-randomness": ["./src/index"]
     },
+    "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,

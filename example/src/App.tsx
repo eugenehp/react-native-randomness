@@ -1,21 +1,19 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import Randomness from 'react-native-randomness';
+import { random } from 'react-native-randomness';
 
 export default function App() {
   const [result, setResult] = React.useState<any | undefined>();
 
   React.useEffect(() => {
-    Randomness.random(16).then( (data) => {
-      console.log("Randomness in JS", data)
-      setResult(data)
-    });
+    random().then(setResult);
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result ? result.toString() : 'N/A'}</Text>
+      <Text>True random result:</Text>
+      <Text>{result ? `[${result.join(',')}]` : 'N/A'}</Text>
     </View>
   );
 }
