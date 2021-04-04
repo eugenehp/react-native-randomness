@@ -32,7 +32,7 @@ npx react-native link
 ```js
 import {random} from "react-native-randomness";
 
-const result = await random();
+const result = await random(); // [68, 115, 41, 36, 85, 55, 167, 223, 122, 48, 124, 211, 162, 50, 7, 25]
 ```
 
 ## Contributing
