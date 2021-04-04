@@ -11,11 +11,9 @@ npm install react-native-randomness
 ## Usage
 
 ```js
-import Randomness from "react-native-randomness";
+import {random} from "react-native-randomness";
 
-// ...
-
-const result = await Randomness.multiply(3, 7);
+const result = await random();
 ```
 
 ## Contributing
@@ -25,3 +23,5 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 ## License
 
 MIT
+
+Copyright (c) 2020 Eugene Hauptmann
