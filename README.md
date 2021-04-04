@@ -1,6 +1,6 @@
 # react-native-randomness
 
-Generate random bytes using native functions in Kotlin and Objective-C.
+Secure generatation of random bytes using native functions in Kotlin and Objective-C.
 
 ## Example
 
