@@ -23,6 +23,8 @@ Generate random bytes using native functions in Kotlin and Objective-C.
 
 ```sh
 npm install react-native-randomness
+# link native dependencies
+npx react-native link
 ```
 
 ## Usage
