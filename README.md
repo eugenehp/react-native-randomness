@@ -19,6 +19,8 @@ Secure generatation of random bytes using native functions in Kotlin and Objecti
 </tr>
 </table>
 
+Check the source code [here](https://github.com/eugenehp/react-native-randomness/tree/main/example)
+
 ## Installation
 
 ```sh
