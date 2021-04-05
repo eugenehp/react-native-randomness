@@ -1,5 +1,16 @@
 # react-native-randomness
 
+[![GitHub license](https://img.shields.io/github/license/eugenehp/react-native-randomness.svg?color=blue&style=for-the-badge)](./LICENSE)
+[![npm](https://img.shields.io/npm/v/react-native-randomness.svg?color=green&style=for-the-badge)](https://www.npmjs.com/package/react-native-randomness)
+[![npm downloads](https://img.shields.io/npm/dw/react-native-randomness.svg?label=npm%20downloads&style=for-the-badge)](https://npmcharts.com/compare/react-native-randomness?minimal=true)
+[![total npm downloads](https://img.shields.io/npm/dt/react-native-randomness.svg?label=total%20npm%20downloads&style=for-the-badge)](https://npmcharts.com/compare/react-native-randomness?minimal=true)
+[![GitHub watchers](https://img.shields.io/github/watchers/eugenehp/react-native-randomness.svg?style=for-the-badge)](https://github.com/eugenehp/react-native-randomness/watchers)
+[![GitHub stars](https://img.shields.io/github/stars/eugenehp/react-native-randomness.svg?label=GitHub%20stars&style=for-the-badge)](https://github.com/eugenehp/react-native-randomness/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/eugenehp/react-native-randomness.svg?style=for-the-badge)](https://github.com/eugenehp/react-native-randomness/network/members)
+[![open bugs](https://img.shields.io/github/issues-raw/eugenehp/react-native-randomness/bug.svg?color=d73a4a&label=open%20bugs&style=for-the-badge)](https://github.com/eugenehp/react-native-randomness/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug)
+[![total open issues](https://img.shields.io/github/issues-raw/eugenehp/react-native-randomness.svg?label=total%20open%20issues&style=for-the-badge)](https://github.com/eugenehp/react-native-randomness/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/eugenehp/react-native-randomness.svg?style=for-the-badge)](https://github.com/eugenehp/react-native-randomness/pulls)
+
 Secure generatation of random bytes using native functions in Kotlin and Objective-C.
 
 ## Example
