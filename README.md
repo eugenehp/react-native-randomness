@@ -56,4 +56,4 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 
 MIT
 
-Copyright (c) 2020 Eugene Hauptmann
+Copyright (c) 2021 Eugene Hauptmann
