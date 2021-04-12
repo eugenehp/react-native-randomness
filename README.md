@@ -52,8 +52,14 @@ const result = await random(); // [68, 115, 41, 36, 85, 55, 167, 223, 122, 48, 1
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
+## Sponsorship
+
+Thank you to our sponsors:
+
+[<img width="300px" src="https://user-images.githubusercontent.com/1857263/114124204-c4e1eb80-98a8-11eb-80ab-64683c24bbc5.png" alt="Reactive Lions™" target="_blank">](https://www.reactivelions.com)
+
 ## License
 
-MIT
+[MIT](./LICENSE)
 
 Copyright (c) 2021 Eugene Hauptmann
