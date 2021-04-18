@@ -19,7 +19,7 @@ class RandomnessModule(reactContext: ReactApplicationContext) : ReactContextBase
     // Example method
     // See https://reactnative.dev/docs/native-modules-android
     @ReactMethod
-    fun random(length: Int, promise: Promise) {
+    fun randomBytes(length: Int, promise: Promise) {
 
       val data = ByteArray(length)
       val random = SecureRandom()
@@ -28,8 +28,6 @@ class RandomnessModule(reactContext: ReactApplicationContext) : ReactContextBase
       val base64 = Base64.encodeToString(data, Base64.NO_WRAP)
 
       promise.resolve(base64)
-
     }
-
 
 }

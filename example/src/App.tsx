@@ -1,13 +1,13 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { random } from 'react-native-randomness';
+import { randomBytes } from 'react-native-randomness';
 
 export default function App() {
   const [result, setResult] = React.useState<any | undefined>();
 
   React.useEffect(() => {
-    random().then(setResult);
+    randomBytes().then(setResult);
   }, []);
 
   return (

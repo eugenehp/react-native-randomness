@@ -6,7 +6,7 @@ RCT_EXPORT_MODULE()
 
 // Example method
 // See // https://reactnative.dev/docs/native-modules-ios
-RCT_REMAP_METHOD(random,
+RCT_REMAP_METHOD(randomBytes,
                  randomWithLength:(nonnull NSNumber*)length
                  withResolver:(RCTPromiseResolveBlock)resolve
                  withRejecter:(RCTPromiseRejectBlock)reject)

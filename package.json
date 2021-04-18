@@ -1,6 +1,6 @@
 {
   "name": "react-native-randomness",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate random bytes using native functions.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -29,7 +29,8 @@
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "bootstrap": "yarn example && yarn && yarn pods",
+    "prepublish": "npm run prepare"
   },
   "keywords": [
     "react-native",
@@ -153,5 +154,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "base64-js": "^1.5.1"
   }
 }
