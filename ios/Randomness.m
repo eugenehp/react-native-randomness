@@ -21,7 +21,7 @@ RCT_REMAP_METHOD(random,
         reject(@"error", @"Failed to generate random bytes using secure methods.", error);
     }
     
-    NSLog(@"Generated random data, %@", data);
+    // NSLog(@"Generated random data, %@", data);
     
     resolve([data base64EncodedStringWithOptions:0]);
 }

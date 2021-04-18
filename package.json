@@ -1,6 +1,6 @@
 {
   "name": "react-native-randomness",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate random bytes using native functions.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
